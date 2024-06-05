@@ -31,7 +31,7 @@ class PnrDataServices {
       url = url.replace(queryParameters: parameter);
 
       http.Response response = await http.get(url, headers: <String, String>{
-        "X-RapidAPI-Key": "3d9cf77c1dmshf0b46883166dc6ap1061f7jsne52b1254cc94",
+        "X-RapidAPI-Key": "API_KEY",
         "X-RapidAPI-Host": "irctc1.p.rapidapi.com"
       });
 
